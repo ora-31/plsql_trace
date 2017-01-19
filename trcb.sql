@@ -28,7 +28,6 @@ CREATE OR REPLACE PACKAGE BODY trace IS
   --                     run into more than 3 levels (and doesnt't take up more 12 char)
   -- gledford 12/29/2008 Performance enhancement
   -- comes    01/28/2010 Added trace "init" and "dump" to report exceptions
-  -- comes    02/03/2010 Added exception handling when dumping cjis.info
   -- comes    11/27/2013 Added return code on pipe when problem with trace
 
   --* Package Variables
