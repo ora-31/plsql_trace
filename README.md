@@ -1,4 +1,4 @@
-# $(1:Project Name} - trace
+# PL/SQL Trace
 PLSQL Trace Utility
 
 ## Installation
@@ -18,8 +18,11 @@ You must have a session running the trace listener.  Simply open a SQL\*Plus win
 
 ### To start a Trace
 Open a new session and start a trace
+
 `exec trace.start_trace(&app_name, &prg_name);`
+
 *app_name* is your application name as specified in the TRACE_CONFIG table
+
 *prg_name* is your program name as specified in the TRACE_CONFIG table
 
 ### To send a debug/trace message
